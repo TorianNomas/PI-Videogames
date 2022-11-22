@@ -1,0 +1,61 @@
+.cuadrado{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1%;
+}
+.Card {
+    margin-left: 1%;
+    margin-top:1%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid gray;
+   
+}
+
+.GenreContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.DetailImage{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        filter: brightness(30%)
+}
+.Deletebutton{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-family:"Press Start 2P";
+    font-size: 1vw;
+    line-height: 20px;
+    letter-spacing: 2px;
+} 
+
+.Deletebutton:hover span{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px; 
+} 
+.Deletebutton:hover:before{
+    content: "►"
+}

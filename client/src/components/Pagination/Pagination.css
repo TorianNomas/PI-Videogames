@@ -1,0 +1,32 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+
+.nextbutton{
+background-color: transparent;
+color:white;
+border:none;
+font-family: "Press Start 2P";
+font-size: 2vw;
+}
+.nextbutton:hover{
+background-color: transparent;
+color:white;
+border:none;
+font-family: "Press Start 2P";
+font-size: 2vw;
+cursor:pointer;
+}
+
+.PageInput{
+    width: 1vw;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: "Press Start 2P";
+    background: repeating-linear-gradient(#0f0a1e, #0f0a1e 2px, #140e29 2px, #140e29 4px);
+}
+.PageInput:hover{
+    outline: none;
+}
+
+  

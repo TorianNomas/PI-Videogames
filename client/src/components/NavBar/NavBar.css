@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.lis {
+  float: left;
+}
+
+.lis {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+.lis:hover {
+  color: rgba(27, 17, 17, 0.774);
+  background-color: rgba(175, 170, 170, 0.774);
+}
+
+.searchInput{
+    padding: 10px 10px;
+    width: 20%;
+    float:right;
+    font-family: "Press Start 2P";
+    border-color:white;
+    border-style: none none solid none;
+    background: repeating-linear-gradient(#0f0a1e, #0f0a1e 2px, #140e29 2px, #140e29 4px);
+   
+}
+
+.searchInput:focus{
+    outline:none;
+    float:right;
+    border: 2px;
+    border-color:#205F05;
+    border-style: none none solid none;
+    color:white;
+    font-family: "Press Start 2P";
+    width: 20%;
+}

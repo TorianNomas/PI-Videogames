@@ -1,0 +1,49 @@
+.creationInput{
+    width: 20%;
+    padding: 10px;
+}
+
+.container{
+    margin: auto;  
+    margin-top:5px;
+    width: 30vw;
+    height: 15vw;
+    overflow-y: scroll;
+    border: 3px solid gray
+}
+
+.Createbutton{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-family:"Press Start 2P";
+    font-size: 1vw;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-shadow: -2px 0 0 #fdff2a,
+      -4px 0 0 #df4a42,
+      2px 0 0 #91fcfe,
+      4px 0 0 #4405fc;
+} 
+
+.Createbutton:hover span{
+    color: white;
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-shadow: -2px 0 0 #fdff2a,
+      -4px 0 0 #df4a42,
+      2px 0 0 #91fcfe,
+      4px 0 0 #4405fc;   
+} 
+.Createbutton:hover:before{
+    content: "►"
+}
